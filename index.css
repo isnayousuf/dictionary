@@ -1,0 +1,71 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 35, 35);
+
+}
+.container{
+    background-color: rgb(66, 75, 75);
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h2{
+    color: white;
+}
+#input{
+    margin: 1rem;
+    padding: 0 1rem;
+    width: 20vw;
+    height: 2rem;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#submit-btn{
+    width: 7rem;
+    height: 2.3rem;
+    outline: none;
+    background-color: rgb(145, 92, 145);
+    border: 1px solid rgb(145, 92, 145);
+    border-radius: 1rem;
+    font-weight: bold;
+}
+#submit-btn:hover{
+    color: white;
+}
+.wordHandler{
+    width: 30vw;
+    max-width: 30vw;
+    min-height: 20vh;
+    background-color: rgb(145, 92, 145);
+}
+.wordHandler p{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    line-height: 18px;
+}
+.wordHandler .newWord{
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* .wordHandler p::first-letter{
+    font-weight: bold;
+} */
+.hide{
+    display: none;
+}
+
