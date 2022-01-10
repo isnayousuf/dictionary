@@ -13,6 +13,22 @@ main{
     background-color: rgb(41, 35, 35);
 
 }
+.noData{
+    background-color: rgb(189, 180, 180);
+    padding: 1rem;
+    margin-bottom: 1rem;
+   
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: orangered;
+    position: relative;
+}
+.noData span{
+    position: absolute;
+    left: 0.3rem;
+    top: -0.05rem;
+
+}
 .container{
     background-color: rgb(66, 75, 75);
     width: 30vw;
@@ -62,9 +78,11 @@ main{
     font-weight: bold;
     font-size: 1rem;
 }
-/* .wordHandler p::first-letter{
-    font-weight: bold;
-} */
+.pronounce{
+    height: 1.7rem;
+    padding: 0.5rem;
+    margin-left: 2rem;
+}
 .hide{
     display: none;
 }
