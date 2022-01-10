@@ -6,17 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Api use</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="index.css">
     <script src="./index.js" defer></script>
 </head>
 <body>
     <main>
+        <div class="noData hide">
+            <span><i class="fa fa-times" aria-hidden="true" id="cross"></i></span>
+            <p>Please Enter any Word</p>
+        </div>
     <div class="container">
         <h2>Welcome to My Dictionary</h2>
         <input type="text" id="input" placeholder="Search any word">
         <input type="submit" value="Search Word" id="submit-btn"/>
     </div>
     <div class="wordHandler hide">
+        <audio src="" class="pronounce" controls autoplay></audio>
         <p class="newWord"></p>
         <p class="newWord2"> </p>
         <p class="newWord3"></p>
